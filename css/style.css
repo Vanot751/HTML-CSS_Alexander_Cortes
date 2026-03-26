@@ -1,0 +1,66 @@
+body{
+    background-color: lightblue;
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    font-size: 32px;
+}
+
+.header h1{ 
+    text-align: center;
+    font-size: 28px;
+}
+
+.Perfil{
+    margin-bottom: 10px;
+}
+
+.Nombre{
+    margin-top: 75px;
+}
+.nav{
+    display: flex;
+    background-color: white;
+    font-size: 24px;
+}
+
+.nav1{
+    margin-left: 150px;
+}
+
+.nav1:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.article{
+    background-color: lightcyan;
+}
+
+.Presentacion{
+    text-align: center;
+    padding: 10px;
+}
+.Profesion{
+    font-size: 28px;
+    padding: 10px;
+}
+.Descripcion{
+    margin: 10px;
+    padding: 25px;
+}
+
+.main{
+    display: flex;
+}
+
+.iconos{
+    display: flex;
+}
+
+.icono{
+    padding: 10px;
+    margin: 10px;
+}
