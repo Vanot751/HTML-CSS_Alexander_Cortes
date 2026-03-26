@@ -1,66 +1,143 @@
-body{
-    background-color: lightblue;
-}
-
-.header{
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+    background-image: url("../Imagenes/images.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    font-size: 32px;
 }
 
-.header h1{ 
+.header {
+    background-color: lightskyblue;
+    color: black;
     text-align: center;
-    font-size: 28px;
+    padding: 30px 20px;
+}
+.header h1 {
+    font-size: 48px;
+    margin: 0;
 }
 
-.Perfil{
-    margin-bottom: 10px;
-}
-
-.Nombre{
-    margin-top: 75px;
-}
-.nav{
+.nav {
+    background-color: whitesmoke;
     display: flex;
-    background-color: white;
-    font-size: 24px;
+    justify-content: center;
+    gap: 80px;
+    padding: 12px 0;
+    margin-top: 25px;
+}
+.nav a {
+    font-size: 30px;
+    color: rgb(41, 41, 112);
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.nav1{
-    margin-left: 150px;
-}
-
-.nav1:hover{
-    transform: scale(1.2);
+.nav a:hover {
+    color: orange;
+    transform: scale(1.5);
     transition: 0.5s;
 }
 
-.article{
-    background-color: lightcyan;
+.contenedor-principal {
+    width: 90%;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
-.Presentacion{
+.section {
+    flex: 2;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 12px;
+}
+.section h2 {
+    color: black;
+}
+
+.section h3 {
+    color: black;
+    font-weight: normal;
+}
+
+.aside {
+    flex: 1;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 12px;
+}
+.aside ul {
+    padding-left: 20px;
+}
+.aside li {
+    margin: 10px 0;
+}
+
+.article {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    margin: 100px auto 30px auto;
+    width: 80%;
+}
+.article h2 {
+    color: darkblue;
+}
+.article ul {
+    padding-left: 20px;
+}
+.article li {
+    margin: 8px 0;
+}
+
+.article a{
+        text-decoration: none;
+        color: black;
+}
+
+.footer {
+    background-color: lightskyblue;
+    color: rgb(8, 8, 131);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-size: 16px;
 }
-.Profesion{
-    font-size: 28px;
-    padding: 10px;
+.footer a {
+    color: rgb(5, 5, 92);
+    text-decoration: none;
 }
-.Descripcion{
-    margin: 10px;
-    padding: 25px;
+.footer a:hover {
+    text-decoration: underline;
 }
 
-.main{
+.icono {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.aside li {
+    transition: transform 0.3s ease;
+}
+
+.aside li:hover {
+    transform: scale(1.1);
+}
+
+body {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
 }
 
-.iconos{
-    display: flex;
-}
-
-.icono{
-    padding: 10px;
-    margin: 10px;
+.footer {
+    margin-top: auto;
 }
